@@ -1,7 +1,7 @@
-import React from "react";
+import SalonsList from "./list";
 
 const SalonsListPage: React.Page = () => {
-  return <div>SalonsListPage</div>;
+  return <SalonsList />;
 };
 
 export default SalonsListPage;
