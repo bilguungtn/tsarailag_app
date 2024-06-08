@@ -1,6 +1,5 @@
 import { type Metadata } from "next";
-
-// import { APP_TITLE } from "@/lib/constants";
+import Footer from "./footer";
 
 export const metadata: Metadata = {
   title: "Tsarailag App",
@@ -9,10 +8,14 @@ export const metadata: Metadata = {
 
 const MainLayout: React.Layout = ({ children }) => {
   return (
-    <div>
-      {/* <Header /> */}
-      <div className="">{children}</div>
-      {/* <Footer /> */}
+    <div className="flex justify-center">
+      {/* MOBILE CONTAINER */}
+      <div className="relative flex h-[100dvh] w-[640px] flex-col items-center">
+        <div className="container w-full flex-auto">{children}</div>
+        <div className="sticky bottom-0 w-full">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 };
