@@ -1,3 +1,6 @@
+export const constantNames = {
+  appName: "Tsarailag App",
+};
 export const authRoutes: (string | RegExp)[] = [
   "/login",
   /^\/login.*$/,
