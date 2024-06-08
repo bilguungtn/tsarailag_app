@@ -1,7 +1,8 @@
 import React from "react";
+import AppointmentsList from "./list";
 
 const AppointmentListPage: React.Page = () => {
-  return <div>AppointmentListPage</div>;
+  return <AppointmentsList />;
 };
 
 export default AppointmentListPage;
