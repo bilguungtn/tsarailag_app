@@ -19,7 +19,9 @@ const OnboardingPage: React.Page = () => {
           <Button asChild variant={"ghost"} className="w-full">
             <Link href="/">Алгасах</Link>
           </Button>
-          <Button className="w-full">Эхлэх</Button>
+          <Button asChild className="w-full">
+            <Link href="/salons">Эхлэх</Link>
+          </Button>
         </div>
       </div>
     </div>

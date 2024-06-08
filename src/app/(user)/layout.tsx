@@ -4,7 +4,7 @@ import { constantNames } from "@/configs/default";
 
 export const metadata: Metadata = {
   title: constantNames.appName,
-  description: "Energy Balance",
+  description: "Beauty salon appointment system",
 };
 
 const MainLayout: React.Layout = ({ children }) => {
